@@ -8,7 +8,7 @@ st.set_page_config(page_title="Weather Dashboard", layout="centered")
 st.title("🌤️ Weather Visualization Dashboard")
 
 # Your OpenWeatherMap API Key
-API_KEY = "83f46f9db8fbc53758f6a6074d5c3679"
+API_KEY = ""  # Add your API Key Here
 
 # Text input for city
 cities_input = st.text_input("Enter city name(s) separated by commas (e.g., Delhi,Mumbai):")
